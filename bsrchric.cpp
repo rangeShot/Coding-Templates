@@ -16,9 +16,9 @@ by:-
 
 
 
-ll srch(ll a[], ll l, ll r, ll x) { 
+long long int srch(long long int a[], long long int l, long long int r, long long int x) { 
    if (r >= l) { 
-        ll mid = l + (r - l)/2; 
+        long long int mid = l + (r - l)/2; 
         if (arr[mid] == x)   
             return mid; 
         if (arr[mid] > x)  
