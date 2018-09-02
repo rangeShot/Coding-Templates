@@ -23,6 +23,9 @@ by:-
 #define settedbits(a) __builtin_popcount(a)
 #define totalbits(a) ((int)log2(a)+1)
 #define sp " "
+#define in(a) ll a;scanf("%lld",&a);
+#define out(a) printf("%lld",a);
+#define nl printf("\n");
 
 const ll mod=1e9+7;
 const double pi=acos(-1);
