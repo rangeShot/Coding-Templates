@@ -12,6 +12,7 @@ int main(){
 	    matrix[i] = new int[cols];
 	
 	
+	
 	//to delete the matrix
 	
 	for (int i = 0; i < rows; ++i)
