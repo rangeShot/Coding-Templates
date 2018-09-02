@@ -1,5 +1,12 @@
-#include <iostream>
-using namespace std;
+/*
+by:-  
+                     _ __ ___ 119574
+                    | '__/ __| 
+                    | |  \__ \ 
+                    |_|  |___/ 
+                    
+
+*/ 
 
 
 
@@ -7,10 +14,8 @@ using namespace std;
 
 
 
-
-
-int isprime(long long int n){
-    int c=0;
+ll isprime(ll n){
+    ll c=0;
     if((n%2==0)&&(n!=2))
         return 0;
     if((n%3==0)&&(n!=3))
@@ -38,13 +43,3 @@ return 1;
 
 
 
-int main() {
-	//code
-	int t;
-	cin>>t;
-	for(int i=2 ;i<=t;i++){
-		if(isprime(i)==1)
-		cout<<i<<" ";
-	}
-return 0;
-}
