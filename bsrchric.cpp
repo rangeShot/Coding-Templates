@@ -34,3 +34,4 @@ ll srch(ll a[], ll l, ll r, ll x) {
 
 
 
+
