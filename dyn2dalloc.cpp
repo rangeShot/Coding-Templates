@@ -2,7 +2,7 @@
 
 using namespace std;
 int main(){
-	int rows,cols;
+	int rows, cols;
 	cin>>rows>>cols;
 
 	//to declare the matrix
