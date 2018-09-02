@@ -36,3 +36,4 @@ ll srch(ll arr[], ll l, ll r, ll x) {
 
 
 
+
