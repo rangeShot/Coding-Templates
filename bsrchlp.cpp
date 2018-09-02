@@ -14,8 +14,6 @@ by:-
 
 
 
-
-
 ll srch(ll arr[], ll l, ll r, ll x) { 
     while (l <= r) { 
         ll m = l + (r-l)/2; 
