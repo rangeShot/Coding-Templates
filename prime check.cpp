@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+
+
+
+
+
+
+
+
 int isprime(long long int n){
     int c=0;
     if((n%2==0)&&(n!=2))
@@ -17,6 +25,18 @@ int isprime(long long int n){
     }
 return 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main() {
 	//code
