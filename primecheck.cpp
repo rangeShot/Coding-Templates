@@ -14,6 +14,7 @@ by:-
 
 
 
+
 long long int isprime(long long int n){
     long long int c=0;
     if((n%2==0)&&(n!=2))
