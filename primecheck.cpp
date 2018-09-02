@@ -14,8 +14,8 @@ by:-
 
 
 
-ll isprime(ll n){
-    ll c=0;
+long long int isprime(long long int n){
+    long long int c=0;
     if((n%2==0)&&(n!=2))
         return 0;
     if((n%3==0)&&(n!=3))
