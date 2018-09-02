@@ -5,7 +5,7 @@ int main(){
 	int rows,cols;
 	cin>>rows>>cols;
 
-	//to declare
+	//to declare the matrix
 	
 	int** matrix = new int*[rows];
 	for (int i = 0; i < rows; ++i)
