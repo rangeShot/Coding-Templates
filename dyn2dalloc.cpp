@@ -13,6 +13,7 @@ int main(){
 	
 	
 	
+	
 	//to delete the matrix
 	
 	for (int i = 0; i < rows; ++i)
