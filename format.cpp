@@ -13,8 +13,8 @@ using namespace std;
 
 #define pb push_back
 #define len(a) a.size()
-#define sq(a) (a)*(a)
-#define cb(a) (a)*(a)*(a)
+#define sq(a) ((a)*(a))
+#define cb(a) ((a)*(a)*(a))
 #define gcd(a,b) __gcd(a,b)
 #define cil(a,b) (((a-1)/b)+1)
 #define totalbits(a) ((int)log2(a)+1)
