@@ -12,9 +12,11 @@ by:-
 
 
 
-int srch(int arr[], int l, int r, int x) { 
+
+
+ll srch(ll arr[], ll l, ll r, ll x) { 
     while (l <= r) { 
-        int m = l + (r-l)/2; 
+        ll m = l + (r-l)/2; 
         if (a[m] == x) 
             return m; 
         if (a[m] < x) 
@@ -24,6 +26,10 @@ int srch(int arr[], int l, int r, int x) {
     } 
     return -1; 
 } 
+
+
+
+
 
 
 
