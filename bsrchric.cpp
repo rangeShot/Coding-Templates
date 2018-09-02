@@ -12,6 +12,9 @@ by:-
 
 
 
+
+
+
 ll srch(ll a[], ll l, ll r, ll x) { 
    if (r >= l) { 
         ll mid = l + (r - l)/2; 
@@ -26,3 +29,8 @@ ll srch(ll a[], ll l, ll r, ll x) {
   
   
   
+
+
+
+
+
