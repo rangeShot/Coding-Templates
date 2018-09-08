@@ -21,7 +21,7 @@ typedef long long int ll;
 #define settedbits(a) __builtin_popcount(a)
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define ignor cin.ignore(numeric_limits<streamsize>::max(), '\n')
-#define arr(a,n) in(n);ll a[n];rep(i,n)scanf("%lld",&a[i])
+#define arr(a,n) ll a[n];rep(i,n)scanf("%lld",&a[i])
 #define flush fflush(stdin);fflush(stdout)
 #define rep(i,n) for(ll i=0;i<n;i++)
 #define init int t;scanf("%d",&t);while(t--)
