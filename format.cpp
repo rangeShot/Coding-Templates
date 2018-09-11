@@ -10,6 +10,7 @@ by:-
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
+typedef double db;
 
 #define pb push_back
 #define len(a) a.size()
