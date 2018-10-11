@@ -36,11 +36,12 @@ const double pi=acos(-1);
 
 int main(){
 fast;
-
-//ifstream cin;
-//cin.open("inp.txt");
-//fstream cout;
-//cout.open("opt.txt");
+#ifdef fpn
+ifstream cin;
+cin.open("inp.txt");
+fstream cout;
+cout.open("opt.txt");
+#endif
 
     init
     
