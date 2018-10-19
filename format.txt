@@ -13,9 +13,10 @@ typedef long long int ll;
 #define db double
 
 #define pb push_back
+#define mk make_pair
 #define len(a) a.size()
-#define sq(a) (a)*(a)
-#define cb(a) (a)*(a)*(a)
+#define sq(a) ((a)*(a))
+#define cb(a) ((a)*(a)*(a))
 #define cil(a,b) (((a-1)/b)+1)
 #define tits(a) ((int)log2(a)+1)
 #define seits(a) __builtin_popcount(a)
