@@ -34,7 +34,7 @@ const double pi=acos(-1);
 
 //sort(p.begin(),p.end(),[](auto &left,auto &right)
 //	{return left.second<right.second;});
-
+//#define fpn 1
 int main(){
 fast;
 #ifdef fpn
