@@ -34,7 +34,18 @@ const double pi=acos(-1);
 
 //sort(p.begin(),p.end(),[](auto &left,auto &right)
 //	{return left.second<right.second;});
-//#define fpn 1
+
+
+void solve(){
+    
+    
+    
+    
+    
+    return;
+}
+
+// #define fpn 1
 int main(){
 fast;
 #ifdef fpn
@@ -43,8 +54,10 @@ cin.open("inp.txt");
 fstream cout;
 cout.open("opt.txt");
 #endif
+    in(n);
+    rep(i,n)
 
-    init
+    solve();
     
 flush;
 return 0;
