@@ -8,6 +8,19 @@ by:-
 
 */ 
 #include<bits/stdc++.h>
+#include <vector>
+#include <set>
+#include <map>
+#include <string>
+#include <cstdio>
+#include <cstdlib>
+#include <climits>
+#include <utility>
+#include <algorithm>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <iomanip>
 using namespace std;
 typedef long long int ll;
 #define db double
@@ -23,17 +36,17 @@ typedef long long int ll;
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define ignor cin.ignore(numeric_limits<streamsize>::max(), '\n')
 #define arr(a,n) ll a[n];for(ll i=0;i<n;i++)cin>>a[i]
-#define flush fflush(stdin);fflush(stdout)
-#define rep(i,n) for(ll i=0;i<n;i++)
+#define flo fflush(stdout)
+#define rep(i,n) for(ll i=0;i<(n);i++)
 #define init int t;cin>>t;while(t--)
 #define in(a) ll a;cin>>a
 
 const ll mod=1e9+7;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
+// #define TESTS 1
 
-//sort(p.begin(),p.end(),[](auto &left,auto &right)
-//	{return left.second<right.second;});
+
 
 
 void solve(){
@@ -42,6 +55,7 @@ void solve(){
     
     
     
+    cout<<endl;
     return;
 }
 
@@ -54,11 +68,12 @@ cin.open("inp.txt");
 fstream cout;
 cout.open("opt.txt");
 #endif
+
+    #ifdef TEST
     in(n);
     rep(i,n)
-
+    #endif
     solve();
     
-flush;
 return 0;
 }
