@@ -44,7 +44,7 @@ typedef long long int ll;
 const ll mod=1e9+7;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-// #define TESTS 1
+// #define TEST 1
 
 
 
