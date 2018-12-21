@@ -44,9 +44,11 @@ typedef long long int ll;
 const ll mod=1e9+7;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-// #define TEST 1
+#define TEST 1
 
-
+void fun(){
+    return ;
+}
 
 
 void solve(){
@@ -54,8 +56,6 @@ void solve(){
     
     
     
-    
-    cout<<endl;
     return;
 }
 
@@ -71,6 +71,7 @@ cout.open("opt.txt");
 
     #ifdef TEST
     in(n);
+    fun();
     rep(i,n)
     #endif
     solve();
