@@ -41,11 +41,24 @@ typedef long long int ll;
 #define init int t;cin>>t;while(t--)
 #define in(a) ll a;cin>>a
 
+/*
+bool present=binary_search(v.v.begin(), v.end(),val);	//O(log(n))
+std::vector<int> :: iterator it1=lower_bound(v.v.begin(), v.end(),val);	// >=
+auto  it2=upper_bound(v.v.begin(), v.end(),val);	// >
+int count=it2-it1;
+set<pair<int,int>>::iterator it=s.upper_bound({point,INT_MAX});
+if(it==s.begin())cout<<"not contained in any interval";
+it--;
+pair<int,int> current=*it;
+if(current.first<=point && point<=current.second())cout<<"yes! its present";
+else cout<<"its not present";
+*/
+
 const ll mod=1e9+7;
 const db eps=1e-9;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-#define TEST 1
+// #define TEST 1
 
 void pre(){
     return ;
