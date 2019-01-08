@@ -42,6 +42,8 @@ typedef long long int ll;
 #define in(a) ll a;cin>>a
 
 /*
+memset(arr, 0, sizeof(arr[0][0]) * m * n);
+v1.resize(col,vector<int>(row));
 bool present=binary_search(v.v.begin(), v.end(),val);	//O(log(n))
 std::vector<int> :: iterator it1=lower_bound(v.v.begin(), v.end(),val);	// >=
 auto  it2=upper_bound(v.v.begin(), v.end(),val);	// >
@@ -58,17 +60,25 @@ const ll mod=1e9+7;
 const db eps=1e-9;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-// #define TEST 1
+#define TEST 1
 
 void pre(){
     return ;
 }
-
+int a[4]={3,5,7,11};
 
 void solve(){
+    in(n);
+    ll temp=2;
+    rep(i,n){
+    	if(i==n-1 && (n-1)%4==0){
+    		temp*=a[1];
+    	}
+    	else temp*=a[i%4];
+    	cout<<temp<<' ';
+    }
     
-    
-    
+    cout<<endl;
     
     return;
 }
