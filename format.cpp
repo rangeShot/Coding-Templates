@@ -7,39 +7,40 @@ by:-
                     
 
 */ 
+
+// #include <vector>
+// #include <set>
+// #include <map>
+// #include <string>
+// #include <cstdio>
+// #include <cstdlib>
+// #include <climits>
+// #include <utility>
+// #include <algorithm>
+// #include <cmath>
+// #include <queue>
+// #include <stack>
+// #include <iomanip>
+
 #include<bits/stdc++.h>
-#include <vector>
-#include <set>
-#include <map>
-#include <string>
-#include <cstdio>
-#include <cstdlib>
-#include <climits>
-#include <utility>
-#include <algorithm>
-#include <cmath>
-#include <queue>
-#include <stack>
-#include <iomanip>
 using namespace std;
-typedef long long int ll;
-#define db double
+#define int int_fast64_t
+typedef long long ll;
+typedef long double db;
 
 #define pb push_back
-#define mk make_pair
 #define len(a) a.size()
 #define sq(a) ((a)*(a))
 #define cb(a) ((a)*(a)*(a))
-#define cil(a,b) (((a-1)/b)+1)
 #define tits(a) ((int)log2(a)+1)
 #define seits(a) __builtin_popcount(a)
-#define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+#define maxx numeric_limits<int>::max();
+ll cil(ll a,ll b) {return ((a==0)?0LL:((((a)-1)/(b))+1));}
 #define ignor cin.ignore(numeric_limits<streamsize>::max(), '\n')
-#define arr(a,n) ll a[n];for(ll i=0;i<n;i++)cin>>a[i]
-#define flo fflush(stdout)
-#define rep(i,n) for(ll i=0;i<(n);i++)
-#define init int t;cin>>t;while(t--)
-#define in(a) ll a;cin>>a
+#define arr(a,n) ll a[n];for(ll i=0;i<(n);++i)in>>a[i]
+#define rep(i,n) for(ll i=0;i<(n);++i)
+#define init int t;in>>t;while(t--)
+#define inn(a) ll a;in>>a
 
 /*
 memset(arr, 0, sizeof(arr[0][0]) * m * n);
@@ -60,45 +61,57 @@ const ll mod=1e9+7;
 const db eps=1e-9;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-#define TEST 1
 
-void pre(){
-    return ;
-}
-int a[4]={3,5,7,11};
 
-void solve(){
-    in(n);
-    ll temp=2;
-    rep(i,n){
-    	if(i==n-1 && (n-1)%4==0){
-    		temp*=a[1];
-    	}
-    	else temp*=a[i%4];
-    	cout<<temp<<' ';
+
+
+class rs119574 {
+
+public:
+
+	void pre(){
+
+		return;
+	}
+
+    void solve(std::istream& in, std::ostream& out) {
+
+    	//code
+
+
+
+
+
+
+
     }
-    
-    cout<<endl;
-    
-    return;
+};
+
+void solve(std::istream& in, std::ostream& out)
+{
+    out << std::setprecision(12);
+    rs119574 solution;
+    solution.solve(in, out);
 }
 
-// #define fpn 1
-int main(){
-fast;
-#ifdef fpn
-ifstream cin;
-cin.open("inp.txt");
-fstream cout;
-cout.open("opt.txt");
-#endif
 
-    #ifdef TEST
-    in(n);
-    pre();
-    rep(i,n)
-    #endif
-    solve();
+#include <fstream>
+#include <iostream>
+
+
+signed main() {
     
-return 0;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+
+    istream& in = cin;
+
+
+    ostream& out = cout;
+
+    solve(in, out);
+    // fflush(stdout);
+    return 0;
 }
+

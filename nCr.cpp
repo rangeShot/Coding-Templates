@@ -10,7 +10,8 @@ using namespace std;
 
 
 const ll mod=(ll)1e9+7;
-
+
+
 
 
 
@@ -23,7 +24,7 @@ ll nCrModp(ll n, ll r)
 {
  
 	// The array C is going to store last row of 
-pascal triangle at the end. And last entry of last row is nCr 
+// pascal triangle at the end. And last entry of last row is nCr 
 	
 	
 	ll C[r+1]={0}; 
