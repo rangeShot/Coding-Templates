@@ -157,24 +157,23 @@ ll i,j,k;
 
 void solve(){
     //code...
-    inn(n);
-    arr(a,n);
-    for(auto i:a)out(i);
+    
     
     
 return;
 }
-// #define TEST COMMENT
+#define TEST COMMENT
 
 signed main() {
     
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     
-    // #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // #endif
+    #ifndef ONLINE_JUDGE
+    freopen("Input.txt", "r", stdin);
+    freopen("Output.txt", "w", stdout);
+    freopen("Error.txt", "w", stderr)
+    #endif
 
     
     ll t=1,jj=0;
