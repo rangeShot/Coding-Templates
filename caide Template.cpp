@@ -75,7 +75,7 @@ public:
 	}
 
     void solve(std::istream& in, std::ostream& out) {
-
+    	pre();
     	//code
 
 
