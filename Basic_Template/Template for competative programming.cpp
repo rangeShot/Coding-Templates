@@ -159,6 +159,8 @@ void solve(){
     //code...
     
     
+
+    
     
 return;
 }
@@ -172,7 +174,7 @@ signed main() {
     #ifndef ONLINE_JUDGE
     freopen("Input.txt", "r", stdin);
     freopen("Output.txt", "w", stdout);
-    freopen("Error.txt", "w", stderr)
+    freopen("Error.txt", "w", stderr);
     #endif
 
     
@@ -190,6 +192,11 @@ signed main() {
         cout<<endl;
     }
     #endif
+     #ifndef ONLINE_JUDGE
+    cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
+    #endif 
+
+    
     fflush(stdout);
     return 0;
 }
