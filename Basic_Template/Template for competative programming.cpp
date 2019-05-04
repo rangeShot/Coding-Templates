@@ -27,8 +27,8 @@ by:-
 #include<bits/stdc++.h>
 using namespace std;
 #define int int_fast64_t
-typedef long long ll;
-typedef long double db;
+typedef long long ll
+;typedef long double db;
 
 
 //for fast scanning
@@ -126,15 +126,13 @@ memset(arr, 0, sizeof(arr[0][0]) * m * n);
 
 #define F first
 #define S second
-#define pb push_back
+#define pb emplace_back
 #define len(a) a.size()
 #define sq(a) ((a)*(a))
 #define cb(a) ((a)*(a)*(a))
 #define SORT(v) sort(ALL(v)) 
 #define tits(a) ((int)log2(a)+1)
 #define PERMUTE next_permutation 
-#define ALL(v) v.begin(), v.end() 
-#define REVERSE(v) reverse(ALL(v)) 
 #define seits(a) __builtin_popcount(a)
 #define maxx numeric_limits<int>::max();
 ll cil(ll a,ll b) {return ((a==0)?0LL:((((a)-1)/(b))+1));}
@@ -144,6 +142,7 @@ ll cil(ll a,ll b) {return ((a==0)?0LL:((((a)-1)/(b))+1));}
 #define REPR(i,k,n) for (i = k; i >= n; --i)
 #define arr(a,n) ll a[n];rep(i,n)in(a[i])
 #define de(i) cout<<"hi "<<i<<endl;
+#define endl "\n"
 #define inn(a) ll a;in(a);
 
 const ll mod=1e9+7;
