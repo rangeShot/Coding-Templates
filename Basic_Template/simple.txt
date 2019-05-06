@@ -1,0 +1,26 @@
+/*
+by:-  
+                     _ __ ___ 119574 
+                    | '__/ __| 
+                    | |  \__ \ 
+                    |_|  |___/ 
+                    
+
+*/ 
+
+#include<bits/stdc++.h>
+#define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+using namespace std;
+typedef long long int ll;
+typedef long double db;
+#define rep(i,n) for (ll i = 0; i < n; ++i) 
+const ll mod=1e9+7;
+const db eps=1e-9;
+const double pi=acos(-1);
+
+
+signed main(){
+	fast;
+
+	return 0;
+}

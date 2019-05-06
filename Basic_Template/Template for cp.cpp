@@ -153,17 +153,22 @@ ll i,j,k;
 
 
 
+#define TEST ALL_TESTS
+#define ONLINE ImONLINE
 
 void solve(){
-    //code...
-    
-    
+	// code 
+	
 
-    
-    
-return;
+
+	
+	
 }
-#define TEST COMMENT
+
+#if defined (ONLINE) && ! defined (ONLINE_JUDGE)  
+#define ONLINE_JUDGE
+#endif
+
 
 signed main() {
     
@@ -177,26 +182,25 @@ signed main() {
     #endif
 
     
-    ll t=1,jj=0;
-    #ifdef TEST
-    in(t);
-    #endif
-    #ifdef TEST
-    while(t--){
-        cout<<"TEST "<<++jj<<endl;
-    #endif
-    solve();
-    #ifdef TEST  
-    
-        cout<<endl;
-    }
-    #endif
-     #ifndef ONLINE_JUDGE
-    cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
-    #endif 
+    #ifndef ONLINE_JUDGE
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+	#endif
 
-    
-    fflush(stdout);
-    return 0;
+	#ifdef TEST 
+	int t;cin>>t;
+	for(int i=1;i<=t;++i){
+		cout<< "TEST " << i <<endl;
+		#endif
+		solve();
+		#ifndef ONLINE_JUDGE
+	    cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
+	    #endif 
+	#ifdef TEST
+	    cout<<endl;}
+	#endif
+
+
+	   fflush(stdout);
+	return 0;
 }
-
