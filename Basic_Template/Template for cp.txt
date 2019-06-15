@@ -152,13 +152,11 @@ const double pi=acos(-1);
 ll i,j,k;
 
 
-
 #define TEST ALL_TESTS
-#define ONLINE ImONLINE
+#define ONLINE ReadFromShell
 
 void solve(){
     // code 
-    
 
 
     
@@ -169,7 +167,6 @@ void solve(){
 #define ONLINE_JUDGE
 #endif
 
-
 signed main() {
     
     ios_base::sync_with_stdio(false);
@@ -178,14 +175,9 @@ signed main() {
     #ifndef ONLINE_JUDGE
     freopen("Input.txt", "r", stdin);
     freopen("Output.txt", "w", stdout);
-    freopen("Error.txt", "w", stderr);
+    // freopen("Error.txt", "w", stderr);
     #endif
 
-    
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    #endif
 
     #ifdef TEST 
         int t;cin>>t;
@@ -193,14 +185,12 @@ signed main() {
             cout<< "Case #" << i <<": ";
     #endif
             solve();
-            #ifndef ONLINE_JUDGE
-                cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
-            #endif 
+            // cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
     #ifdef TEST
         cout<<endl;}
     #endif
 
 
-       fflush(stdout);
+      fflush(stdout);
     return 0;
 }
