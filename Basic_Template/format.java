@@ -13,14 +13,14 @@ import java.math.*;
 import java.lang.*;
 import java.text.*;
 import java.util.*;
-import java.security.*;
-import java.util.regex.*;
-import java.util.Scanner; 
-import java.io.IOException; 
-import java.util.concurrent.*;
-import java.io.BufferedReader; 
-import java.io.InputStreamReader; 
-import java.util.StringTokenizer; 
+// import java.security.*;
+// import java.util.regex.*;
+// import java.util.Scanner; 
+// import java.io.IOException; 
+// import java.util.concurrent.*;
+// import java.io.BufferedReader; 
+// import java.io.InputStreamReader; 
+// import java.util.StringTokenizer; 
 
 /*
 Set<Integer> st = new HashSet<Integer>();st.add();
@@ -68,38 +68,32 @@ public class Main {
 
 		String nextLine(){ 
 			String str = ""; 
-			try
-			{ 
+			try{ 
 				str = br.readLine(); 
 			} 
-			catch (IOException e) 
-			{ 
+			catch (IOException e){ 
 				e.printStackTrace(); 
 			} 
 			return str; 
 		} 
 	} 
 
-	public static void main(String[] args) throws IOException { 
-		FastReader in=new FastReader(); 
-		Long t=1;
-		t=in.nextLong();
-		while(t--){
-		    //code
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-}}} 
+public static void main(String[] args) throws IOException { 
+	FastReader in=new FastReader(); 
+	Long t=1L;
+// 	t=in.nextLong();
+	while(t-->0){
+	    //code
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+    }
+}} 
