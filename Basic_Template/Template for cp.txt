@@ -27,8 +27,8 @@ by:-
 #include<bits/stdc++.h>
 using namespace std;
 #define int int_fast64_t
-typedef long long ll
-;typedef long double db;
+typedef long long ll;
+typedef long double db;
 
 
 //for fast scanning
@@ -124,8 +124,7 @@ ctz = __builtin_ctz(num); Number of trailing zero's in num
 memset(arr, 0, sizeof(arr[0][0]) * m * n);
 */
 
-#define F first
-#define S second
+
 #define pb emplace_back
 #define len(a) a.size()
 #define sq(a) ((a)*(a))
@@ -152,13 +151,16 @@ const double pi=acos(-1);
 ll i,j,k;
 
 
-#define TEST ALL_TESTS
+// #define TEST ALL_TESTS
 #define ONLINE ReadFromShell
 
-void solve(){
+inline void solve(){
     // code 
 
-
+   
+   
+   
+   
     
     
 }
