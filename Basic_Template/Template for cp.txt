@@ -31,7 +31,7 @@ typedef long long ll;
 typedef long double db;
 
 
-//for fast scanning
+//for fast scanning of integer stream
 template<typename T> void in(T &x) { 
     x = 0; 
     bool neg = 0; 
@@ -60,29 +60,6 @@ template<typename T> void out(T n) {
     if (neg) putchar('-'); 
     while (i >= 0) putchar(snum[i--]); 
     putchar('\n'); 
-} 
-
-void fastscan(int &number) { 
-    //variable to indicate sign of input number 
-    bool negative = false; 
-    register int c; 
-    number = 0; 
-    // extract current character from buffer 
-    c = getchar(); 
-    if (c=='-') { 
-        // number is negative 
-        negative = true; 
-        // extract the next character from the buffer 
-        c = getchar(); 
-    } 
-    // Keep on extracting characters if they are integers 
-    // i.e ASCII Value lies from '0'(48) to '9' (57) 
-    for (; (c>47 && c<58); c=getchar()) 
-        number = number *10 + c - 48; 
-    // if scanned input has a negative sign, negate the 
-    // value of the input number 
-    if (negative) 
-        number *= -1; 
 } 
 
 
@@ -155,14 +132,18 @@ ll i,j,k;
 #define ONLINE ReadFromShell
 
 inline void solve(){
-    // code 
-
-   
-   
-   
-   
+    // code
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+   return; 
 }
 
 #if defined (ONLINE) && ! defined (ONLINE_JUDGE)  
