@@ -59,7 +59,7 @@ template<typename T> void out(T n) {
     --i; 
     if (neg) putchar('-'); 
     while (i >= 0) putchar(snum[i--]); 
-    putchar('\n'); 
+    putchar(' '); 
 } 
 
 
