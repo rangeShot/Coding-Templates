@@ -113,10 +113,10 @@ memset(arr, 0, sizeof(arr[0][0]) * m * n);
 #define maxx numeric_limits<int>::max();
 ll cil(ll a,ll b) {return ((a==0)?0LL:((((a)-1)/(b))+1));}
 #define ignor cin.ignore(numeric_limits<streamsize>::max(), '\n')
-#define rep(i,n) for (i = 0; i < n; ++i) 
-#define REP(i,k,n) for (i = k; i <= n; ++i) 
-#define REPR(i,k,n) for (i = k; i >= n; --i)
-#define arr(a,n) ll a[n];rep(i,n)in(a[i])
+#define rep(i,n) for (ll i = 0; i < (ll)(n); ++i) 
+#define REP(i,k,n) for (ll i = k; i <= (ll)(n); ++i) 
+#define REPR(i,k,n) for (ll i = k; i >= (ll)(n); --i)
+#define ina(a,n) ll a[n];rep(i,n)in(a[i])
 #define de(i) cout<<"hi "<<i<<endl;
 #define endl "\n"
 #define inn(a) ll a;in(a);
@@ -125,7 +125,6 @@ const ll mod=1e9+7;
 const db eps=1e-9;
 const double pi=acos(-1);
 #define inf 0x3f3f3f3f
-ll i,j,k;
 
 
 // #define TEST ALL_TESTS
@@ -133,6 +132,7 @@ ll i,j,k;
 
 inline void solve(){
     // code
+    
     
     
     
