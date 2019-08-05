@@ -1,6 +1,6 @@
 # Some Useful Resources
 ## Mean and Inequality
-[RMS >= AM >= GM >= HM](https://artofproblemsolving.com/wiki/index.php/Root-Mean_Square-Arithmetic_Mean-Geometric_Mean-Harmonic_mean_Inequality)
+*[RMS >= AM >= GM >= HM](https://artofproblemsolving.com/wiki/index.php/Root-Mean_Square-Arithmetic_Mean-Geometric_Mean-Harmonic_mean_Inequality)
 
 
 
