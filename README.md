@@ -4,4 +4,4 @@
 
 
 
-## by Ranjeet Kumar [(rs119574)](https://www.google.co.in/search?q=rs119574)
+## by Ranjeet Kumar [(rs119574)](https://lmgtfy.com/?q=rs119574&t=w)
