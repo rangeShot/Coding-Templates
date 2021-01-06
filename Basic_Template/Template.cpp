@@ -20,7 +20,7 @@ const db eps=1e-9;
 const double pi=acos(-1);
 
 
-inline void solve(){
+void solve(){
 
 
 
